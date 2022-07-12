@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "naame":"campera",
+        "price":9000
+    },
+    {
+        "id":2,
+        "naame":"Pantalón",
+        "price":7000
+    },
+    {
+        "id":3,
+        "naame":"Remera",
+        "price":3000
+    },
+    {
+        "id":4,
+        "naame":"Buzo",
+        "price":9000
+    },
+    {
+        "id":5,
+        "naame":"Pollera",
+        "price":10000
+    }
+]
