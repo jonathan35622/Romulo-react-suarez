@@ -1,13 +1,15 @@
 import React from "react";
-
-const Item = ({ id, naame , price}) => {
+const Item = ({product}) =>{
     return(
+        <>
+        
         <div>
-            <p>{id}</p>
-            <h2>{naame}</h2>
-            <p>{price}</p>
+            
+            {/* <h2>{ product.id < 2 && product.id}</h2> */}
+          
         </div>
+        </>
     )
-};
+}
 
 export default Item;

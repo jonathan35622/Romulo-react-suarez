@@ -13,8 +13,8 @@ const ItemCount = ({stock, initial, onAdd}) => {
     return(
         <div>
             <h3>{count}</h3>
-            <button onClick={decrementar}>-</button>
-            <button onClick={incrementar}>+</button>
+            <button onClick={count > 0 && decrementar}>-</button>
+            <button onClick={count < stock && incrementar}>+</button>
             <button>Agregar al carrito</button>
         </div>
     )
