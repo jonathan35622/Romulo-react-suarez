@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ItemDetail from "./ItemDetail";
 
-
 const ItemDetailContainer = () =>{
 
 const [element, setElement] = useState([]);
@@ -9,13 +8,13 @@ const [element, setElement] = useState([]);
 
 const getItem = () =>{
 
-    fetch('https://fakestoreapi.com/products/')
+    setTimeout(fetch('https://fakestoreapi.com/products/')
     .then((res) =>
         res.json()
     )
-    .then(data  => setElement(data))
+    .then(data  => setElement(data)),2000);
+    
 }
-
 
 useEffect( () =>{
     getItem()

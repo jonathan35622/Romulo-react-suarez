@@ -7,7 +7,7 @@ const ItemsListContainer = ({greeting}) =>{
     const [products, setProducts] = useState([]);
    
     const getProducts = () => {   
-
+        
       fetch('https://fakestoreapi.com/products/')
         .then( (res)=>
           res.json())
